@@ -92,7 +92,9 @@ const fetchWeather = (city = null) => {
     // If city is not provided, use the value from the input field
     const cityName = city || document.querySelector('.weather-search').value;
 
-    const cityQuery = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=2&appid=77040252389976f33508f30aefd8ebd8`;
+    const cityQuery = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=2&appid=77040252389976f33508f30aefd8ebd8`;
+
+    
 
     let latitude = '';
     let longitude = '';
@@ -110,7 +112,7 @@ const fetchWeather = (city = null) => {
 };
 
 const weatherData = (lat, lon) => {
-    const weatherDetails = `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=77040252389976f33508f30aefd8ebd8`;
+    const weatherDetails = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=77040252389976f33508f30aefd8ebd8`;
 
     fetch(weatherDetails)
         .then(response => response.json())
