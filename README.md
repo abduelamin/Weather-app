@@ -50,7 +50,7 @@ For any inquiries or collaboration opportunities, feel free to contact me via em
 ## Usage
 Enter the name of a city in the search bar, view the current weather conditions, including temperature, wind speed, and humidity. Explore the 5-day forecast to plan ahead and Check the search history for quick access to previously searched cities [here](https://abduelamin.github.io/Weather-app/)
 
-![Weather app](https://github.com/abduelamin/Weather-app/assets/149680577/9cad4e0c-b795-454a-8888-9f29fb2707ba)
+![Weather app](https://github.com/abduelamin/Weather-app/assets/149680577/b9addeba-bcda-4d09-8ce7-1c38c14672e8)
 
 ## Known Issues
 
